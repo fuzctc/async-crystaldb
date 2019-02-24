@@ -9,8 +9,8 @@ async-crystaldb
 
 import asyncio
 import aiomysql
-from . import crystaldb
-from .crystaldb.utils import storage
+import crystaldb
+from crystaldb.utils import storage
 import functools
 import warnings
 import contextlib
